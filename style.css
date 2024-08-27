@@ -1,0 +1,175 @@
+
+.hero-section {
+  background-image: url("imagens/fundo.jpg");
+  background-size: cover;
+  background-position: center;
+  color: rgb(255, 255, 255);
+  height: 120vh;
+}
+.bg_preto{
+  background-color: rgba(0, 0, 0, 0.418);
+  height: 120vh;
+}
+
+.img1 {
+  width: 200px;
+}
+
+.hero-section .container {
+  padding-top: 180px;
+}
+
+.align-items {
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+}
+.align-items i{
+  margin:0 10px;
+}
+
+.titulo1{
+  font-size: 50px;
+  font-weight: 700;
+  
+}
+/*----------------*/
+.section-title {
+  font-size: 2.5rem;
+  color: #158251;
+  font-weight: bold;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.faq-item {
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #003300;
+  color: white;
+  padding: 20px 0;
+}
+
+/*-------------------------*/
+.custom-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.custom-container p {
+  flex: 1;
+  text-align: center;
+  color: rgb(123, 43, 43);
+  margin: 0;
+}
+
+.quadrado {
+  width: 500px;
+  height: 500px;
+}
+
+.image-container {
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*-------------------*/
+.position-relative {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Ajuste a opacidade conforme necessário */
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+/*-------------------*/
+.custom-container {
+  background-color: #FFA500;
+  /* Fundo laranja claro */
+  padding-top: 100px;
+  /* Padding superior maior */
+  padding-right: 15px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  border-radius: 30px;
+  /* Borda arredondada */
+  border-bottom-right-radius: 0;
+  /* Canto inferior direito não arredondado */
+}
+
+.custom-container p {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.custom-container span {
+  font-size: 60px;
+  /* Tamanho maior para os números */
+  opacity: 0.7;
+  /* Números um pouco transparentes */
+}
+
+/*-------*/
+.centro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  margin-top: -40px;
+  margin-bottom: -80px;
+}
+
+.centro_text {
+  text-align: center;
+  position: relative;
+}
+
+.circulo {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #006b00;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+}
+
+.centro_text h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  color: #006b00;
+  font-size: 40px;
+  z-index: 2;
+}
