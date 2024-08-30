@@ -1,0 +1,467 @@
+@font-face {
+    font-family: 'Exo Light';
+    src: url('/Exo Light.ttf') format('truetype');
+    font-weight: normal; /* Opcional */
+    font-style: normal;  /* Opcional */
+}
+
+@font-face {
+    font-family: 'Gugi Regular';
+    src: url('/Gugi Regular.ttf') format('truetype');
+    font-weight: normal; /* Opcional */
+    font-style: normal;  /* Opcional */
+}
+
+body {
+    font-family: 'Gugi Regular', sans-serif; /* Adicionando uma fonte alternativa */
+}
+
+
+.hero-section {
+    margin-top:80px;
+    background-image: url("/imagens/fundo.jpg");
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100%;
+}
+.bg_preto{
+    background-color: rgba(0, 0, 0, 0.418);
+    height: 100vh;
+    width: 100vw;
+}
+
+.img1 {
+    width: 200px;
+}
+
+.hero-section .container {
+    padding-top: 140px;
+}
+.navbar-brand img{
+    width: 150px;
+}
+.align-items {
+    margin-top:28%;
+    display: flex;
+    align-items: center;
+}
+.align-items i{
+margin:0 10px;
+}
+
+.titulo1{
+font-size: 50px;
+font-weight: 700;
+
+}
+/*----------------*/
+.section-title {
+    font-size: 2.5rem;
+    color: #158251;
+    font-weight: bold;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.faq-item {
+background-color: #f8f9fa;
+border-radius: 5px;
+padding: 10px;
+margin-bottom: 10px;
+}
+
+.footer {
+background-color: #003300;
+color: white;
+padding: 20px 0;
+}
+
+/*-------------------------*/
+.custom-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.custom-container p {
+    flex: 1;
+    text-align: center;
+    color: rgb(123, 43, 43);
+    margin: 0;
+}
+
+.quadrado {
+width: 500px;
+height: 500px;
+}
+
+.image-container {
+    width: 500px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*-------------------*/
+.position-relative {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 97%;
+    background-color: rgba(0, 0, 0, 0.5);
+/* Ajuste a opacidade conforme necessário */
+}
+
+.position-absolute {
+position: absolute;
+}
+em{
+    font-weight: 100;
+}
+/*-------------------*/
+.custom-container {
+    background-color: #FFA500;
+    /* Fundo laranja claro */
+    padding-top: 100px;
+    /* Padding superior maior */
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    border-radius: 30px;
+    /* Borda arredondada */
+    border-bottom-right-radius: 0;
+    /* Canto inferior direito não arredondado */
+}
+
+.custom-container p {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.custom-container span {
+    font-size: 60px;
+    /* Tamanho maior para os números */
+    opacity: 0.7;
+    /* Números um pouco transparentes */
+}
+.custom-container h6 {
+    font-size: 24px;
+    color:white;
+    margin:0;
+    top: -5px;
+    position: relative;
+}
+
+
+/*-------*/
+.centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    margin-top: -80px;
+    margin-bottom: -80px;
+}
+
+.centro_text {
+    text-align: center;
+    position: relative;
+}
+
+.circulo {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #006b00;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+.centro_text h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: #006b00;
+    font-size: 40px;
+    z-index: 2;
+}
+/*--------------------------------------*/
+.accordion-button::after {
+    font-family: 'Font Awesome 5 Free'; 
+    content: '\f067'; /* Código para o ícone de mais */
+    font-weight: 900;
+    margin-left: auto;
+}
+
+.accordion-button:not(.collapsed)::after {
+    content: "\f068"; /* Código para o ícone de menos */
+}
+/* Remove as setas padrão */
+.accordion-button::after {
+    background-image: none !important;
+}
+.project-image {
+    max-width: 100%;
+    height: auto;
+    /* Ou use uma largura fixa para tamanhos menores se necessário */
+    /* width: 100%; */
+}
+/*#########################################################################################*/
+@media only screen and (max-width: 600px) {
+    @font-face {
+        font-family: 'Exo Light';
+        src: url('Exo Light.ttf') format('truetype');
+        font-weight: normal; /* Opcional */
+        font-style: normal;  /* Opcional */
+    }
+    
+    @font-face {
+        font-family: 'Gugi Regular';
+        src: url('Gugi Regular.ttf') format('truetype');
+        font-weight: normal; /* Opcional */
+        font-style: normal;  /* Opcional */
+    }
+    .centralizar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .project_image {
+        width: 350px;
+        height: 350px;
+        border-radius: 100%;
+    }
+    body {
+        font-family: 'Gugi Regular', sans-serif; /* Adicionando uma fonte alternativa */
+    }
+    .navbar-brand img{
+        width: 90px;
+    }
+    
+    .hero-section {
+        margin-top:80px;
+        background-image: url("/imagens/fundo.jpg");
+        background-size: cover;
+        background-position: center;
+        color: rgb(255, 255, 255);
+        height: 50vh;
+        width: 100%;
+    }
+    .bg_preto{
+        background-color: rgba(0, 0, 0, 0.418);
+        height: 50vh;
+        width: 100%;
+    }
+    
+    .img1 {
+        display: none;
+    }
+    
+    .hero-section .container {
+        padding:0;
+        margin: 0;
+    }
+    
+    .align-items {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+    }
+    .align-items i{
+     margin:0 10px;
+    }
+    
+    .titulo1{
+        padding-top: 150px;
+        text-align: center;
+        font-size: 30px;
+    }
+    /*----------------*/
+    .section-title {
+        font-size: 2.5rem;
+        color: #158251;
+        font-weight: bold;
+    }
+    
+    .project-image {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    
+    .faq-item {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    }
+    
+    .footer {
+    background-color: #003300;
+    color: white;
+    padding: 20px 0;
+    }
+    
+    /*-------------------------*/
+    .custom-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .custom-container p {
+        flex: 1;
+        text-align: center;
+        color: rgb(123, 43, 43);
+        margin: 0;
+    }
+    
+    .quadrado {
+    width: 500px;
+    height: 500px;
+    }
+    
+    .image-container {
+        width: 500px;
+        height: 350px;
+        overflow: hidden;
+    }
+    
+    .image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    /*-------------------*/
+    
+    .position-relative {
+        position: relative;
+    }
+    
+    .overlay {
+        position: absolute;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        height: 97%;
+        background-color: rgba(0, 0, 0, 0.5);
+    /* Ajuste a opacidade conforme necessário */
+    }
+    
+    .position-absolute {
+    position: absolute;
+    }
+    em{
+        font-weight: 100;
+    }
+    /*-------------------*/
+    .custom-container {
+        background-color: #FFA500;
+        /* Fundo laranja claro */
+        padding-top: 80px;
+        /* Padding superior maior */
+        padding-bottom: 20px;
+        border-radius: 30px;
+        /* Borda arredondada */
+        border-bottom-right-radius: 0;
+        /* Canto inferior direito não arredondado */
+        
+    }
+    
+    .custom-container p {
+        font-size: 30px;
+        font-weight: 600;
+        margin: 0;
+    }
+    
+    .custom-container span {
+        font-size: 60px;
+        /* Tamanho maior para os números */
+        opacity: 0.7;
+        /* Números um pouco transparentes */
+    }
+    .custom-container h6 {
+        font-size: 24px;
+        color:white;
+        margin:0;
+        top: -5px;
+        position: relative;
+    }
+    
+    
+    /*-------*/
+    .centro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    
+        margin-top: -50px;
+        margin-bottom: -50px;
+    }
+    
+    .centro_text {
+        text-align: center;
+        position: relative;
+    }
+    
+    .circulo {
+        width: 100px;
+        height: 100px;
+        border: 5px solid #006b00;
+        border-radius: 50%;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .centro_text h3 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        color: #006b00;
+        font-size: 20px;
+        z-index: 2;
+    }
+    /*--------------------------------------*/
+    .accordion-button::after {
+        font-family: 'Font Awesome 5 Free'; 
+        content: '\f067'; /* Código para o ícone de mais */
+        font-weight: 900;
+        margin-left: auto;
+    }
+    
+    .accordion-button:not(.collapsed)::after {
+        content: "\f068"; /* Código para o ícone de menos */
+    }
+    /* Remove as setas padrão */
+    .accordion-button::after {
+        background-image: none !important;
+    }
+}
